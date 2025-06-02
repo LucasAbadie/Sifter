@@ -1,0 +1,89 @@
+# ========================
+# Unreal Engine Git Ignore
+# Compatible UE4 / UE5
+# ========================
+
+# Project-specific folders
+Saved/
+Intermediate/
+DerivedDataCache/
+Build/*/Binaries/
+Build/*/Intermediate/
+
+# Plugin folders (internal)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+.vs/
+*.idea/
+*.log
+*.tmp
+
+# Build binaries
+Binaries/*
+Build/*
+*.exe
+*.dll
+*.app
+*.so
+*.dylib
+*.pdb
+
+# Unreal Build Tool
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+*.csproj
+*.vcxproj*
+*.sln
+*.code-workspace
+*.tmp
+*.cache
+*.log
+*.obj
+*.gch
+*.idb
+*.class
+*.ipch/
+*.aps
+*.ncb
+*.res
+*.tlog
+*.unsuccessfulbuild
+
+# Clangd Files
+compile_commands.json
+.clangd
+.cache/
+
+# Mac and Linux files
+.DS_Store
+*.swp
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Packaging and staging
+WindowsNoEditor/
+LinuxNoEditor/
+MacNoEditor/
+Android/
+iOS/
+HTML5/
+Shipping/
+
+# Optional: Ignore autosave
+Autosaves/
